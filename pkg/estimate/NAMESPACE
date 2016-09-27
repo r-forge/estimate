@@ -1,0 +1,17 @@
+###
+### NAMESPACE
+###
+
+
+## Imported methods
+importFrom("grDevices", png)
+importFrom("graphics", plot)
+importFrom("utils", read.table, read.delim, data)
+
+
+## Public routines
+export(outputGCT)
+export(filterCommonGenes)
+export(estimateScore)
+export(plotPurity)
+
