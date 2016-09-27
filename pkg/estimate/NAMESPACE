@@ -4,29 +4,31 @@
 
 
 ## Imported methods
-importFrom("grDevices",
-    dev.off,
-    png
+importFrom('grDevices',
+    'dev.off',
+    'png'
 )
-importFrom("graphics",
-    abline,
-    curve,
-    matlines,
-    par,
-    popints,
-    plot
+importFrom('graphics',
+    'abline',
+    'curve',
+    'matlines',
+    'par',
+    'popints',
+    'plot'
 )
-importFrom("utils",
-    data,
-    read.delim,
-    read.table
-    write.table
+importFrom('utils',
+    'data',
+    'read.delim',
+    'read.table',
+    'write.table'
 )
 
 
 ## Public routines
-export(outputGCT)
-export(filterCommonGenes)
-export(estimateScore)
-export(plotPurity)
+export(
+    'estimateScore',
+    'filterCommonGenes',
+    'outputGCT',
+    'plotPurity'
+)
 
