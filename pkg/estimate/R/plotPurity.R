@@ -18,6 +18,7 @@ plotPurity <- function(scores,
     if (platform != "affymetrix"){
      stop("not implemented")  
     }
+
     ## Begin processing
 
     ##---------------------------------------------------------------------------
@@ -33,9 +34,6 @@ plotPurity <- function(scores,
       cos(0.6049872018 + 0.0001467884*x)
     }
   
-    ## Load estimate.RData
-    data(PurityDataAffy)
-
     ## Read ESTIMATE data file
     estimate.df <- get_estimates_df(scores)
     samplenames <- rownames(estimate.df)

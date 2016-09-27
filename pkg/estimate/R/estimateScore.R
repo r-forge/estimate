@@ -11,9 +11,6 @@ estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agile
     stopifnot(is.character(output.ds) && length(output.ds) == 1 && nzchar(output.ds))
     platform <- match.arg(platform)   
    
-    ## Load estimate.RData
-    data(SI_geneset)
-
     ## Read input dataset(GCT format)
     ds <- read.delim(input.ds, header=TRUE, sep="\t", skip=2, row.names=1, blank.lines.skip=TRUE, as.is=TRUE, na.strings = "")
     descs <- ds[,1]
