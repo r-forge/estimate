@@ -13,7 +13,7 @@ importFrom('graphics',
     'curve',
     'matlines',
     'par',
-    'popints',
+    'points',
     'plot'
 )
 importFrom('utils',
