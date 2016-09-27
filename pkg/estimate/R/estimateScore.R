@@ -7,8 +7,8 @@
 estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agilent", "illumina")) {
 
     ## Check arguments
-	stopifnot(is.character(input.ds) && length(input.ds) == 1 && nzchar(input.ds))
-	stopifnot(is.character(output.ds) && length(output.ds) == 1 && nzchar(output.ds))
+    stopifnot(is.character(input.ds) && length(input.ds) == 1 && nzchar(input.ds))
+    stopifnot(is.character(output.ds) && length(output.ds) == 1 && nzchar(output.ds))
     platform <- match.arg(platform)   
    
     ## Load estimate.RData
@@ -54,15 +54,15 @@ estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agile
          score.matrix[gs.i, ] <- rep(NA, Ns)
          next
         } else {
-		 ES.vector <- vector(length=Ns)
+         ES.vector <- vector(length=Ns)
          
-		 ## Enrichment score
-		 for (S.index in 1:Ns) {
-		     gene.list <- order(m[, S.index], decreasing=TRUE)            
+         ## Enrichment score
+         for (S.index in 1:Ns) {
+             gene.list <- order(m[, S.index], decreasing=TRUE)            
              gene.set2 <- match(gene.overlap, gene.names)
              correl.vector <- m[gene.list, S.index]
-		 
-		     TAG <- sign(match(gene.list, gene.set2, nomatch=0))    # 1 (TAG) & 0 (no.TAG)
+         
+             TAG <- sign(match(gene.list, gene.set2, nomatch=0))    # 1 (TAG) & 0 (no.TAG)
              no.TAG <- 1 - TAG 
              N <- length(gene.list) 
              Nh <- length(gene.set2) 
@@ -83,10 +83,10 @@ estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agile
                 }
              ES <- sum(RES)
              EnrichmentScore <- list(ES = ES, arg.ES = arg.ES, RES = RES, indicator = TAG)
-		     ES.vector[S.index] <- EnrichmentScore$ES
-		    }
+             ES.vector[S.index] <- EnrichmentScore$ES
+            }
          score.matrix[gs.i, ] <- ES.vector
-		}
+        }
     }
 
     score.data <- data.frame(score.matrix)
@@ -96,30 +96,30 @@ estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agile
    
     if (platform != "affymetrix"){
          score.data <- rbind(score.data, estimate.score)
-	     rownames(score.data) <- c("StromalScore", "ImmuneScore", "ESTIMATEScore")
+         rownames(score.data) <- c("StromalScore", "ImmuneScore", "ESTIMATEScore")
     } else {
         ## Calculate ESTIMATE-based tumor purity (This function is limited in the Affymetrix platform)
-	    convert_row_estimate_score_to_tumor_purity <- function(x) {
+        convert_row_estimate_score_to_tumor_purity <- function(x) {
              stopifnot(is.numeric(x))
              cos(0.6049872018 + 0.0001467884*x)
         }
-		
+        
       est.new <- NULL
       for (i in 1:length(estimate.score)) {
             est_i <- convert_row_estimate_score_to_tumor_purity(estimate.score[i])
             est.new <- rbind(est.new, est_i)
-	        if(est_i >= 0){
-	             next
-	        } else {
-	             message(paste(sample.names[i],": out of bounds", sep=""))
-	        }
+            if(est_i >= 0){
+                 next
+            } else {
+                 message(paste(sample.names[i],": out of bounds", sep=""))
+            }
         }
         colnames(est.new) <- c("TumorPurity")
         estimate.t1 <- cbind(estimate.score, est.new)
-	    x.bad.tumor.purities <- estimate.t1[, "TumorPurity"] < 0
+        x.bad.tumor.purities <- estimate.t1[, "TumorPurity"] < 0
         estimate.t1[x.bad.tumor.purities, "TumorPurity"] <- NA
         score.data <- rbind(score.data, t(estimate.t1))
-	    rownames(score.data) <- c("StromalScore", "ImmuneScore", "ESTIMATEScore", "TumorPurity")
+        rownames(score.data) <- c("StromalScore", "ImmuneScore", "ESTIMATEScore", "TumorPurity")
     }
     outputGCT(score.data, output.ds)
 }

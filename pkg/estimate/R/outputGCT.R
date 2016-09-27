@@ -11,12 +11,12 @@ outputGCT <- function(input.f, output.f){
     ## output.f - must be character string
    
     if(is.data.frame(input.f)==TRUE) {
-	    exp.data <- input.f
-	} else {
-	    exp.data <- read.table(input.f, header=TRUE, row.names=1, sep="\t", quote="" )
-	}
-		  
-	exp.data1 <- data.frame(NAME=rownames(exp.data),Description=rownames(exp.data),exp.data)
+        exp.data <- input.f
+    } else {
+        exp.data <- read.table(input.f, header=TRUE, row.names=1, sep="\t", quote="" )
+    }
+          
+    exp.data1 <- data.frame(NAME=rownames(exp.data),Description=rownames(exp.data),exp.data)
     column1 <- colnames(exp.data1)
     column1[1] <- "NAME"
     column1[2] <- "Description"
@@ -36,5 +36,5 @@ outputGCT <- function(input.f, output.f){
     colnames(gct) <- colnames(exp.data2)
     tmp <- rbind(gct,exp.data2)
     write.table(tmp,output.f, sep="\t", row.names=FALSE, col.names=FALSE, quote=FALSE)
-	invisible(NULL)
+    invisible(NULL)
 }
