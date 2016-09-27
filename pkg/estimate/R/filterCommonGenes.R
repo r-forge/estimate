@@ -12,9 +12,6 @@ filterCommonGenes <- function(input.f, output.f, id=c("GeneSymbol","EntrezID")) 
     stopifnot((is.character(output.f) && length(output.f) == 1 && nzchar(output.f)))
     id <- match.arg(id)   
      
-    ## Load estimate.RData
-    data(common_genes)
-   
     ## Read input data
     input.data <- read.table(input.f, header=TRUE, row.names=1, sep="\t", 
                              quote="", stringsAsFactors=FALSE)

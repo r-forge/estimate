@@ -18,6 +18,7 @@ importFrom('graphics',
 )
 importFrom('utils',
     'data',
+    'globalVariables',
     'read.delim',
     'read.table',
     'write.table'
