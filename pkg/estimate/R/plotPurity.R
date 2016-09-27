@@ -6,8 +6,8 @@
 ##-----------------------------------------------------------------------------
 plotPurity <- function(scores,
                        samples="all_samples",
-					   platform = c("affymetrix", "agilent", "illumina"),
-					   output.dir="estimated_purity_plots") {
+                       platform = c("affymetrix", "agilent", "illumina"),
+                       output.dir="estimated_purity_plots") {
 
     ## Check arguments
     stopifnot((is.character(scores) && length(scores) == 1 && nzchar(scores)) ||
@@ -15,7 +15,7 @@ plotPurity <- function(scores,
     stopifnot(is.character(output.dir) && length(output.dir) == 1 && nzchar(output.dir))
     platform <- match.arg(platform)
     
-	if (platform != "affymetrix"){
+    if (platform != "affymetrix"){
      stop("not implemented")  
     }
     ## Begin processing
@@ -54,18 +54,18 @@ plotPurity <- function(scores,
     min.af <- min(Affy.model$ESTIMATEScore)
   
     if (samples[1] == "all_samples"){
-	     Num.S <- nrow(estimate.df)
+         Num.S <- nrow(estimate.df)
     } else {
-	     Num.S <- as.numeric(length(samples))
+         Num.S <- as.numeric(length(samples))
     }
   
     for (i in 1:Num.S) {
-	     if(samples[1] =="all_samples"){
-	         samplename <- samplenames[i]
-	    } else {
-	         samplename <- samples[i]
-	    }
-	
+         if(samples[1] =="all_samples"){
+             samplename <- samplenames[i]
+        } else {
+             samplename <- samples[i]
+        }
+    
         png.filename <- file.path(output.dir, sprintf("%s.png", samplename))
         png(filename=png.filename, width=480, height=480)
  
@@ -101,8 +101,8 @@ plotPurity <- function(scores,
              ## Prediction interval
              matlines(Affy.model$ESTIMATEScore, pred.p, lty=c(1, 2, 2), col="darkgrey")
         } else {
-			 matlines(Affy.model$ESTIMATEScore, pred.p, lty=c(1, 2, 2), col="darkgrey")
-			 par(new=TRUE)
+             matlines(Affy.model$ESTIMATEScore, pred.p, lty=c(1, 2, 2), col="darkgrey")
+             par(new=TRUE)
              curve(convert_row_estimate_score_to_tumor_purity,
              from, to, n=10000, col="grey", ylim=c(0, 1), xlab="", ylab="")
         }
