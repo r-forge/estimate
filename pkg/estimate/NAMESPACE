@@ -4,9 +4,24 @@
 
 
 ## Imported methods
-importFrom("grDevices", png)
-importFrom("graphics", plot)
-importFrom("utils", read.table, read.delim, data)
+importFrom("grDevices",
+    dev.off,
+    png
+)
+importFrom("graphics",
+    abline,
+    curve,
+    matlines,
+    par,
+    popints,
+    plot
+)
+importFrom("utils",
+    data,
+    read.delim,
+    read.table
+    write.table
+)
 
 
 ## Public routines
