@@ -4,7 +4,9 @@
 
 
 ##-----------------------------------------------------------------------------
-filterCommonGenes <- function(input.f, output.f, id=c("GeneSymbol","EntrezID")) {
+filterCommonGenes <- function(input.f,
+                              output.f,
+                              id=c("GeneSymbol", "EntrezID")) {
 
     ## Check arguments
     stopifnot((is.character(input.f) && length(input.f) == 1 && nzchar(input.f)) ||
@@ -27,4 +29,5 @@ filterCommonGenes <- function(input.f, output.f, id=c("GeneSymbol","EntrezID")) 
     print(paste("This dataset includes ", nrow(input.f1), "genes.", sep=""))
     print(paste(x.mismatched.genes, "genes were mismatched.", sep=""))
     outputGCT(input.f1, output.f)
- }
+}
+
