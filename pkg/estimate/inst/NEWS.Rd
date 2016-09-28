@@ -1,3 +1,4 @@
+% $Id$
 \name{NEWS}
 \title{News for Package 'estimate'}
 \section{Changes in estimate version 1.0.13}{

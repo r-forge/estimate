@@ -1,3 +1,5 @@
+% $Id$
+
 \name{PurityDataAffy-data}
 \alias{PurityDataAffy}
 \docType{data}

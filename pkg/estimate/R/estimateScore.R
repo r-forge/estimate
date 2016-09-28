@@ -1,5 +1,5 @@
 ###
-### estimateScore.R
+### $Id$
 ###
 
 

@@ -1,5 +1,5 @@
 ###
-### outputGCT.R
+### $Id$
 ###
 
 
@@ -38,3 +38,4 @@ outputGCT <- function(input.f, output.f){
     write.table(tmp,output.f, sep="\t", row.names=FALSE, col.names=FALSE, quote=FALSE)
     invisible(NULL)
 }
+

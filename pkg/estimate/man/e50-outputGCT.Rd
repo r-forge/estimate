@@ -1,3 +1,5 @@
+% $Id$
+
 \name{outputGCT}
 \alias{outputGCT}
 \title{Write gene expression data in GCT format}

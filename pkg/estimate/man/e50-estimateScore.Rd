@@ -1,3 +1,5 @@
+% $Id$
+
 \name{estimateScore}
 \alias{estimateScore}
 \title{Calculation of stromal, immune, and ESTIMATE scores}
