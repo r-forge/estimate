@@ -1,3 +1,5 @@
+% $Id$
+
 \name{estimate-package}
 \alias{estimate-package}
 \alias{estimate}

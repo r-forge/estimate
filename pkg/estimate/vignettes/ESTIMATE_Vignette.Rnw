@@ -1,3 +1,5 @@
+% $Id$
+
 \documentclass{article}
 
 \begin{document}
@@ -59,3 +61,4 @@ proc.time()-ptm
 @
 
 \end{document}
+
