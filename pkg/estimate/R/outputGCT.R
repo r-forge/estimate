@@ -4,7 +4,8 @@
 
 
 ##-----------------------------------------------------------------------------
-outputGCT <- function(input.f, output.f){
+outputGCT <- function(input.f,
+                      output.f) {
 
     ## Check arguments
     ## input.f - must be character string or connection

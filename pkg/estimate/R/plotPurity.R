@@ -6,7 +6,7 @@
 ##-----------------------------------------------------------------------------
 plotPurity <- function(scores,
                        samples="all_samples",
-                       platform = c("affymetrix", "agilent", "illumina"),
+                       platform=c("affymetrix", "agilent", "illumina"),
                        output.dir="estimated_purity_plots") {
 
     ## Check arguments
@@ -16,19 +16,19 @@ plotPurity <- function(scores,
     platform <- match.arg(platform)
     
     if (platform != "affymetrix"){
-     stop("not implemented")  
+        stop("not implemented")  
     }
 
     ## Begin processing
 
-    ##---------------------------------------------------------------------------
+    ##-------------------------------------------------------------------------
     get_estimates_df <- function(scores) {
      #estimate <- read.table(scores, skip=2, header=TRUE, row.names=1, sep="\t")
      estimate <- read.delim(scores, skip=2, row.names=1)
      as.data.frame(t(estimate[, -1]))
     }
 
-    ##---------------------------------------------------------------------------
+    ##-------------------------------------------------------------------------
     convert_row_estimate_score_to_tumor_purity <- function(x) {
       stopifnot(is.numeric(x))
       cos(0.6049872018 + 0.0001467884*x)
