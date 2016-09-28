@@ -39,18 +39,16 @@
 
 ##-----------------------------------------------------------------------------
 .onLoad <- function(libname, pkgname) {
-
-    datasets <-c(
+    datasetNames <- c(
         "common_genes",
         "PurityDataAffy",
         "SI_geneset"
     )
 
     ## Make R CMD check shutup about "no visible binding for global variable"
-    globalVariables(datasets)
+    globalVariables(datasetNames)
 
-    ## Load datasets, making them available via package namespace
-    pkg.env <- as.environment(paste("package", pkgname, sep=":"))
-    data(list=datasets, envir=pkg.env)
+    ## Package uses the "LazyData" setting to load the datasets when needed
+    invisible(NULL)
 }
 
