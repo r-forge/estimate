@@ -5,7 +5,7 @@ Title: Estimate of Stromal and Immune Cells in Malignant
         Tumor Tissues from Expression Data
 Author: Kosuke Yoshihara, Hoon Kim, Roel GW Verhaak
 Maintainer: Kosuke Yoshihara <kyoshihara@mdanderson.org>
-Description: A package for predicting tumor purity, and the presence of stromal/immune cells in tumor tissues using gene expression data.
+Description: Predicts tumor purity, and the presence of stromal/immune cells in tumor tissues using gene expression data.
 Depends: R (>= 2.15.1)
 Imports: utils, grDevices, graphics
 License: GPL-2
