@@ -9,6 +9,7 @@ Description: Predicts tumor purity, and the presence of stromal/immune cells in 
 Depends: R (>= 2.15.1)
 Imports: utils, grDevices, graphics
 License: GPL-2
+LazyData: yes
 NeedsCompilation: no
 URL: https://r-forge.r-project.org/projects/estimate/
 Repository: R-Forge
