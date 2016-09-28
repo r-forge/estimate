@@ -3,8 +3,10 @@
 ###
 
 
-##-------------------------------------------------------------------------------------------
-estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agilent", "illumina")) {
+##-----------------------------------------------------------------------------
+estimateScore <- function(input.ds,
+                          output.ds,
+                          platform=c("affymetrix", "agilent", "illumina")) {
 
     ## Check arguments
     stopifnot(is.character(input.ds) && length(input.ds) == 1 && nzchar(input.ds))
@@ -120,3 +122,4 @@ estimateScore <- function(input.ds, output.ds, platform = c("affymetrix", "agile
     }
     outputGCT(score.data, output.ds)
 }
+
