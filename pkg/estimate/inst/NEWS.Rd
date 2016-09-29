@@ -4,12 +4,19 @@
 \section{Changes in estimate version 1.0.13}{
   \subsection{NEW FEATURES}{
     \itemize{
-      \item Migration to R-Forge.
+      \item Now available from R-Forge!
     }
   }
   \subsection{BUG FIXES}{
     \itemize{
       \item Denoted package imports.
+    }
+    \itemize{
+      \item Revamped handling of internal datasets, lazyloading them
+        into the package namespace.
+    }
+    \itemize{
+      \item Squashed multiple R CMD check warnings.
     }
   }
 }
