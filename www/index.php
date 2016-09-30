@@ -28,7 +28,7 @@ $themeroot='r-forge.r-project.org/themes/rforge/';
     </a>
   </header>
 
-  <div class="content">
+  <div class="content" role="main">
     <p>
       <abbr title="Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data">ESTIMATE</abbr> is a tool for predicting tumor
       purity, and the presence of infiltrating stromal/immune cells in tumor
@@ -44,9 +44,9 @@ $themeroot='r-forge.r-project.org/themes/rforge/';
     <p>
       Click
       <a href="http://bioinformatics.mdanderson.org/main/ESTIMATE:Overview">
-      here</a> for the software's official
-      <strong><abbr title="MD Anderson Cancer Center">MDACC</abbr> jump
-      page</strong>, which includes a link to the ESTIMATE scores for all
+      <strong>here</strong></a> for the software's official
+      <strong><abbr title="MD Anderson Cancer Center">MDACC</abbr> landing
+      page</strong>, which provides a link to the ESTIMATE scores for all
       <abbr title="The Cancer Genome Atlas">TCGA</abbr> tumor types.
       <br />
 
