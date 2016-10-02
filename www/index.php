@@ -28,12 +28,13 @@ $themeroot='r-forge.r-project.org/themes/rforge/';
     </a>
   </header>
 
-  <div class="content" role="main">
+  <main class="content" role="main">
     <p>
-      <abbr title="Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data">ESTIMATE</abbr> is a tool for predicting tumor
-      purity, and the presence of infiltrating stromal/immune cells in tumor
-      tissues using gene expression data. Its algorithm is based on single
-      sample Gene Set Enrichment Analysis, and generates three scores:
+      <abbr title="Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data">ESTIMATE</abbr>
+      is a tool for predicting tumor purity, and the presence of infiltrating
+      stromal/immune cells in tumor tissues using gene expression data.
+      Its algorithm is based on single sample Gene Set Enrichment Analysis,
+      and generates three scores:
       <ol>
         <li>stromal score (that captures the presence of stroma in tumor tissue)</li>
         <li>immune score (that represents the infiltration of immune cells in tumor tissue)</li>
@@ -51,9 +52,10 @@ $themeroot='r-forge.r-project.org/themes/rforge/';
       <br />
 
       Click
-      <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a> for the R-Forge <strong>project summary page</strong>.
+      <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/">
+      <strong>here</strong></a> for the R-Forge <strong>project summary page</strong>.
     </p>
-  </div>
+  </main>
 </body>
 </html>
 
