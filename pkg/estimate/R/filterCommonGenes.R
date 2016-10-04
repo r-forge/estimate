@@ -15,19 +15,19 @@ filterCommonGenes <- function(input.f,
     id <- match.arg(id)   
      
     ## Read input data
-    input.data <- read.table(input.f, header=TRUE, row.names=1, sep="\t", 
-                             quote="", stringsAsFactors=FALSE)
+    input.df <- read.table(input.f,
+                           header=TRUE,
+                           row.names=1,
+                           sep="\t", 
+                           quote="",
+                           stringsAsFactors=FALSE)
      
-    if(id == "GeneSymbol"){
-        input.f1 <- merge(common_genes, input.data, by.x="GeneSymbol", by.y="row.names")
-    } else {
-        input.f1 <- merge(common_genes, input.data, by.x="EntrezID", by.y="row.names")
-    }
-    rownames(input.f1) <- input.f1$GeneSymbol
-    input.f1 <- input.f1[,-1:-ncol(common_genes)]
-    x.mismatched.genes <- nrow(common_genes) - nrow(input.f1)
-    print(paste("This dataset includes ", nrow(input.f1), "genes.", sep=""))
-    print(paste(x.mismatched.genes, "genes were mismatched.", sep=""))
-    outputGCT(input.f1, output.f)
+    merged.df <- merge(common_genes, input.df, by.x=id, by.y="row.names")
+    rownames(merged.df) <- merged.df$GeneSymbol
+    merged.df <- merged.df[, -1:-ncol(common_genes)]
+    print(sprintf("Merged dataset includes %d genes (%d mismatched).",
+                  nrow(merged.df),
+                  nrow(common_genes) - nrow(merged.df)))
+    outputGCT(merged.df, output.f)
 }
 
