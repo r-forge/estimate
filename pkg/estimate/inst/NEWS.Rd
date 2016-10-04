@@ -10,12 +10,8 @@
   \subsection{BUG FIXES}{
     \itemize{
       \item Denoted package imports.
-    }
-    \itemize{
       \item Revamped handling of internal datasets, lazyloading them
         into the package namespace.
-    }
-    \itemize{
       \item Squashed multiple R CMD check warnings.
     }
   }
