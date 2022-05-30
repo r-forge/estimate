@@ -49,10 +49,8 @@
     ## Load internal variables
     assign("savedTime", 0, envir=.MatlabNamespaceEnv)
 
-    ## Allow no changes or additions to environment
-    lockEnvironment(.MatlabNamespaceEnv, bindings=TRUE)
-
-    ## Only allow internal vars to change
-    unlockBinding("savedTime", .MatlabNamespaceEnv)
+    ## Allow no changes or additions to environment,
+    ## but allow its internal vars to change
+    lockEnvironment(.MatlabNamespaceEnv)
 }
 
