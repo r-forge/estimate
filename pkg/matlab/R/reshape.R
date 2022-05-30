@@ -26,6 +26,6 @@ reshape <- function(A, ...) {
         stop("number of elements must not change")
     }
 
-    return(array(as.vector(A), dims))
+    array(as.vector(A), dims)
 }
 

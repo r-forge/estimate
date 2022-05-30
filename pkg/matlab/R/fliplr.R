@@ -16,7 +16,7 @@ setMethod("fliplr",
           signature(object = "vector"),
           function(object) {
               #cat(match.call()[[1]], "(vector)", "\n")
-              return(rev(object))
+              rev(object)
            })
 
 setMethod("fliplr",
@@ -24,7 +24,7 @@ setMethod("fliplr",
           function(object) {
               #cat(match.call()[[1]], "(matrix)", "\n")
               n <- matlab::size(object)[2]
-              return(object[,n:1])
+              object[, n:1]
            })
 
 setMethod("fliplr",

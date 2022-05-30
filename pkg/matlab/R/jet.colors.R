@@ -32,7 +32,7 @@ jet <- function(m = DEFAULT.COLORMAP.SIZE) {
     J[g, 2] <- u[seq(along = g)]
     J[b, 3] <- u[seq(length(u)-length(b)+1, length(u))]
 
-    return(J)
+    J
 }
 
 

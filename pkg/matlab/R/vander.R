@@ -19,6 +19,6 @@ vander <- function(v) {
          } else {
              outer(v, seq(n-1, 0), "^")
          }
-    return(A)
+    A
 }
 

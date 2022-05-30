@@ -19,12 +19,12 @@ size_t <- function(x) {
 
 ##-----------------------------------------------------------------------------
 is.size_t <- function(object) {
-    return(data.class(object) == "size_t")
+    data.class(object) == "size_t"
 }
 
 
 ##-----------------------------------------------------------------------------
 as.size_t <- function(object) {
-    return(size_t(object))
+    size_t(object)
 }
 

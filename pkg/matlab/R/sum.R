@@ -31,7 +31,7 @@ setMethod("sum",
                   mode(x) <- "integer"
               }
 
-              return(base::sum(x, na.rm = na.rm))
+              base::sum(x, na.rm = na.rm)
           })
 
 setMethod("sum",
@@ -53,7 +53,7 @@ setMethod("sum",
                   mode(x) <- "integer"
               }
 
-              return(apply(x, 2, base::sum, na.rm = na.rm))
+              apply(x, 2, base::sum, na.rm = na.rm)
           })
 
 setMethod("sum",

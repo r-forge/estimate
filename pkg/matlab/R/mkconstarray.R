@@ -14,6 +14,6 @@ mkconstarray <- function(class.type = c("character",
                                         "numeric"),
                          value,
                          size) {
-     return(matlab::repmat(as(value, match.arg(class.type)), size))
+     matlab::repmat(as(value, match.arg(class.type)), size)
 }
 

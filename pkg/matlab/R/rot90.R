@@ -21,7 +21,7 @@ rot90 <- function(A, k = 1) {
         n <- matlab::size(A)[2]
 
         A <- t(A)
-        return(A[n:1,])
+        A[n:1, ]
     }
 
     rot180 <- function(A) {
@@ -29,13 +29,13 @@ rot90 <- function(A, k = 1) {
         m <- sz[1]
         n <- sz[2]
 
-        return(A[m:1, n:1])
+        A[m:1, n:1]
     }
 
     rot270 <- function(A) {
         m <- matlab::size(A)[1]
 
-        return(t(A[m:1,]))
+        t(A[m:1, ])
     }
 
     k <- matlab::rem(k, 4)
@@ -43,10 +43,10 @@ rot90 <- function(A, k = 1) {
         k <- k + 4
     }
 
-    return(switch(EXPR = k,
-                  rot90(A),
-                  rot180(A),
-                  rot270(A),
-                  A))
+    switch(EXPR = k,
+           rot90(A),
+           rot180(A),
+           rot270(A),
+           A)
 }
 

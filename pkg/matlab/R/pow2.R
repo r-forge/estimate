@@ -34,6 +34,6 @@ pow2 <- function(f, e) {
                      sQuote("e")))
     }
 
-    return(f * 2^e)
+    f * 2^e
 }
 

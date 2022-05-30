@@ -12,6 +12,6 @@ find <- function(x) {
             } else {
                 x != 0
             }
-    return(which(expr))
+    which(expr)
 }
 

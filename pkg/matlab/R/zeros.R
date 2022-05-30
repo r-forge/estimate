@@ -24,6 +24,6 @@ zeros <- function(...) {
         stop("dimensions must be a positive quantity")
     }
 
-    return(array(0, dims))
+    array(0, dims)
 }
 

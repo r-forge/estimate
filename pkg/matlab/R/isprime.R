@@ -23,6 +23,6 @@ isprime <- function(x) {
                      sQuote("x")))
     }
 
-    return(as.integer(x %in% matlab::primes(max(x))))
+    as.integer(x %in% matlab::primes(max(x)))
 }
 

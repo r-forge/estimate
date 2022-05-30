@@ -11,6 +11,6 @@ numel <- function(A, varargin) {
         stop("not implemented")         # need example
     }
 
-    return(prod(matlab::size(A)))
+    prod(matlab::size(A))
 }
 

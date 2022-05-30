@@ -11,6 +11,6 @@ std <- function(x, flag = 0) {
         stop("biased standard deviation not implemented")
     }
 
-    return(sd(x))
+    sd(x)
 }
 

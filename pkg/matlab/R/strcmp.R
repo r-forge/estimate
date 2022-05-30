@@ -14,10 +14,10 @@ strcmp <- function(S, T) {
         stop(sprintf("argument %s must be character", sQuote("T")))
     }
 
-    return(if (length(S) == length(T)) {
-               all(S == T)
-           } else {
-               FALSE
-           })
+    if (length(S) == length(T)) {
+        all(S == T)
+    } else {
+        FALSE
+    }
 }
 

@@ -41,6 +41,6 @@ factors <- function(n) {
         f <- c(f, n)
     }
 
-    return(f)
+    f
 }
 

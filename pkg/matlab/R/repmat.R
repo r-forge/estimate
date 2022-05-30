@@ -64,6 +64,6 @@ repmat <- function(A, ...) {
                              "character"), collapse  = "|")))
     }
 
-    return(B)
+    B
 }
 

@@ -21,7 +21,7 @@ magic <- function(n) {
         B <- matlab::mod(I + 2 * J - 2, n)
         M <- n * A + B + 1;
 
-        return(M)
+        M
     }
 
     doublyEvenOrder <- function(n) {
@@ -33,7 +33,7 @@ magic <- function(n) {
         M <- t(matlab::reshape(as.matrix(1:(n * n)), n, n))
         M[K] = n * n + 1 - M[K]
 
-        return(M)
+        M
     }
 
     singlyEvenOrder <- function(n) {
@@ -52,7 +52,7 @@ magic <- function(n) {
             M[cbind(i, i + p), j] <- M[cbind(i + p, i), j]
         }
 
-        return(M)
+        M
     }
 
     n <- floor(n)
@@ -70,6 +70,6 @@ magic <- function(n) {
              }
          }
 
-    return(M)
+    M
 }
 

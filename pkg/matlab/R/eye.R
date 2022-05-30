@@ -37,6 +37,6 @@ eye <- function(m, n) {
         stop(sprintf("argument %s must be a positive quantity", sQuote("m")))
     }
 
-    return(diag(1, m, n))
+    diag(1, m, n)
 }
 

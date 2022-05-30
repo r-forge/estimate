@@ -24,6 +24,6 @@ ones <- function(...) {
         stop("dimensions must be a positive quantity")
     }
 
-    return(array(1, dims))
+    array(1, dims)
 }
 

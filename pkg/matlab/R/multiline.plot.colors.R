@@ -20,9 +20,9 @@ multiline.plot.colors <- function() {
         names(colors)[i.named.colors] <- c("blue", "red", "grey25")
         names(colors)[-i.named.colors] <- ""
 
-        return(colors)
+        colors
     }
 
-    return(get.gca.colororder())
+    get.gca.colororder()
 }
 

@@ -13,6 +13,6 @@ rem <- function(x, y) {
         ans <- ans - y
     }
 
-    return(ans)
+    ans
 }
 

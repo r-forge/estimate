@@ -21,6 +21,6 @@ hilb <- function(n) {
     i <- seq_len(n)
     H <- 1 / outer(i-1, i, "+")
 
-    return(H)
+    H
 }
 

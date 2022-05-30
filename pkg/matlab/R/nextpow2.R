@@ -17,6 +17,6 @@ nextpow2 <- function(x) {
     }
 
     x[x == 0] <- 1
-    return(ceiling(log2(abs(x))))
+    ceiling(log2(abs(x)))
 }
 

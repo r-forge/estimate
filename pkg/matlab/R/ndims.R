@@ -7,6 +7,6 @@
 
 ##-----------------------------------------------------------------------------
 ndims <- function(A) {
-    return(length(matlab::size(A)))
+    length(matlab::size(A))
 }
 

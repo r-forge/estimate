@@ -42,6 +42,6 @@ pascal <- function(n, k = 0) {
         }
     }
 
-    return(P)
+    P
 }
 

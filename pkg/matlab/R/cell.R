@@ -35,6 +35,6 @@ cell <- function(...) {
         return(L)
     }
 
-    return(createCellArray(dims))
+    createCellArray(dims)
 }
 

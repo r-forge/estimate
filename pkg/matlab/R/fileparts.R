@@ -83,9 +83,9 @@ fileparts <- function(pathname) {
                name <- sub(tildeUser, "~", name))
     }
 
-    return(list(pathstr = pathstr,
-                name    = name,
-                ext     = ifelse(!is.na(ext), ext, ""),
-                versn   = ""))
+    list(pathstr = pathstr,
+         name    = name,
+         ext     = ifelse(!is.na(ext), ext, ""),
+         versn   = "")
 }
 
