@@ -37,7 +37,7 @@ x <- matrix(1:16, nrow=2, byrow=TRUE)
 matplot(x, type="l", col=multiline.plot.colors())
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{color}
 

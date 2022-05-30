@@ -35,7 +35,7 @@ factors(2^32 + 1)      # 641  6700417
 }
 \author{
   H. Borchers \email{hwborchers@googlemail.com},
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{arith}
 

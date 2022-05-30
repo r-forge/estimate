@@ -25,7 +25,7 @@ nextpow2(x)
 }
 \author{
   H. Borchers \email{hwborchers@googlemail.com},
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \seealso{
   \code{\link{pow2}}

@@ -86,7 +86,7 @@ dev.new(width=8, height=7)
 doPlot(values, "EastOutside", col=jet.colors(16))
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{hplot}
 

@@ -52,7 +52,7 @@ padarray(letters[1:5], c(0, 3), "replicate")	# a a a [a b c d e] e e e
 padarray(letters[1:5], c(0, 3), "circular", "post")	# [a b c d e] a b c
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

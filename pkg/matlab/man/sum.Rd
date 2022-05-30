@@ -34,7 +34,7 @@ sum(1:9)
 sum(matrix(1:9, 3, 3))
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{arith}
 

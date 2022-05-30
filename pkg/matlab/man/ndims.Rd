@@ -31,7 +31,7 @@ ndims(magic(4))			# 2
 ndims(array(1:8, c(2,2,2)))	# 3
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

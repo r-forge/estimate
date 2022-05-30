@@ -25,7 +25,7 @@ Class \code{"numeric"}, by class \code{"integer"}.
   Internal class supporting \code{\link{size}}.
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{classes}
 

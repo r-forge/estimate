@@ -31,7 +31,7 @@ linspace(a, b, n=100)
 linspace(1, 10, 4)
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{manip}
 

@@ -29,7 +29,7 @@ x <- 1:16
 pie(x, col=jet.colors(length(x)))
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{color}
 

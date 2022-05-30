@@ -30,7 +30,7 @@ logspace(a, b, n=50)
 logspace(1, pi, 36)
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{manip}
 

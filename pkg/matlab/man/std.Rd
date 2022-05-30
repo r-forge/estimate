@@ -26,7 +26,7 @@ std(x, flag=0)
 std(1:2) ^ 2
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{univar}
 

@@ -40,7 +40,7 @@ Xarr.3d <- reshape(Xmat.2d, c(6, 2, 1))  # example 2
 reshape(Xmat.2d, size(Xarr.3d))          # example 3
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

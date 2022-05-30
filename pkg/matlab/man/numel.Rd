@@ -25,7 +25,7 @@ numel(2:9)	# 8
 numel(magic(4))	# 16
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

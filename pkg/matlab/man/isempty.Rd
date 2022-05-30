@@ -23,7 +23,7 @@ isempty(1:3)  # FALSE
 isempty(array(NA, c(2, 0, 2)))	# TRUE
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{logic}
 \keyword{attribute}

@@ -40,7 +40,7 @@ meshgrid(1:3)                   # example 2
 meshgrid(5:8, 10:14, 2:3, 3)    # example 3
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

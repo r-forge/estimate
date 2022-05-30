@@ -30,7 +30,7 @@ repmat(1, size(matrix(NA, 3, 3)))  # same thing
 repmat(matrix(1:4, 2, 2), 3)
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 
