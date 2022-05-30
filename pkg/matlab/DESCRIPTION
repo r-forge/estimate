@@ -1,7 +1,7 @@
 Package: matlab
 Version: 1.0.3
 Date: 2022-05-15
-Title: MATLAB Emulation Package
+Title: 'MATLAB' Emulation Package
 Author: P. Roebuck
 Maintainer: P. Roebuck <proebuck1701@gmail.com>
 Description: Emulate 'MATLAB' code using 'R'.
