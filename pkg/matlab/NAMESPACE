@@ -4,6 +4,9 @@
 
 ## Imports
 import(methods)
+importFrom(grDevices, rgb)
+importFrom(graphics, axTicks, axis, box, par)
+importFrom(stats, sd)
 
 ## Public routines
 export(ceil)

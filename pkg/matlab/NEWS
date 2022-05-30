@@ -13,6 +13,10 @@ BUG FIXES
 
     o   Updated to use maintainer's current email address.
 
+    o   Updated manpage author section ordering.
+
+    o   Added additional basic method imports to correct R CMD check issues.
+
 
 
                 CHANGES IN R VERSION 1.0.2
