@@ -26,6 +26,9 @@ multiline.plot.colors()
   Method should be considered experimental and will most likely be removed
   and replaced with similar functionality in the near future.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link[grDevices]{palette}},
   \code{\link[graphics]{par}},
@@ -35,9 +38,6 @@ multiline.plot.colors()
 require(graphics)
 x <- matrix(1:16, nrow=2, byrow=TRUE)
 matplot(x, type="l", col=multiline.plot.colors())
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{color}
 

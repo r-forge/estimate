@@ -16,6 +16,9 @@ cell(\dots)
   Returns list consisting of empty matrices.
   Defaults to square if dimension argument resolves to a single value.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{ones}},
   \code{\link{zeros}}
@@ -25,9 +28,6 @@ cell(3)
 cell(c(3, 3))			# same thing
 cell(3, 3)			# same thing
 cell(size(matrix(NA, 3, 3)))	# same thing
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 \keyword{list}

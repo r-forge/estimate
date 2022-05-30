@@ -25,15 +25,15 @@ magic(n)
 \note{
   A magic square, scaled by its magic sum, is doubly stochastic.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{ones}},
   \code{\link{zeros}}
 }   
 \examples{
 magic(3)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

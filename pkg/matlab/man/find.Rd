@@ -19,12 +19,12 @@ find(x)
 \value{
   Returns indices of corresponding elements matching the expression \code{x}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 find(-3:3 >= 0)
 find(c(0, 1, 0, 2, 3))
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{logic}
 \keyword{attribute}

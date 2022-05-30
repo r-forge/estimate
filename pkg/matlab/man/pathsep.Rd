@@ -20,11 +20,11 @@ pathsep
   Implemented as an R variable rather than a function such that it more
   closely resembles normal MATLAB usage. 
 }
-\seealso{
-  \code{\link{filesep}}
-}
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
+}
+\seealso{
+  \code{\link{filesep}}
 }
 \keyword{file}
 

@@ -24,14 +24,14 @@ linspace(a, b, n=100)
   between \code{a} and \code{b} inclusive. If \eqn{\code{n} < 2}, the
   result will be the ending point \code{b}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{logspace}}
 }
 \examples{
 linspace(1, 10, 4)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{manip}
 

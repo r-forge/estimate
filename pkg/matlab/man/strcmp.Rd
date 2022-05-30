@@ -23,12 +23,12 @@ strcmp(S, T)
 \note{
   Value returned is the opposite of the C language convention.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 strcmp("foo", "bar")  # FALSE
 strcmp(c("yes", "no"), c("yes", "no"))	# TRUE
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{character}
 

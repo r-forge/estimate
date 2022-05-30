@@ -22,11 +22,11 @@ rosser()
 \value{
   Returns an \code{8}-by-\code{8} matrix with integer elements.
 }
-\examples{
-rosser()
-}
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
+}
+\examples{
+rosser()
 }
 \keyword{array}
 

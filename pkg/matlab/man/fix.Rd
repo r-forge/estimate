@@ -19,15 +19,15 @@ fix(A)
   Returns vector containing integers by truncating the
   corresponding values of argument \code{A} toward zero.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{ceil}},
   \code{\link[base]{Round}}
 }   
 \examples{
 fix(c(1.3, 2.5, 3.7))
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{arith}
 

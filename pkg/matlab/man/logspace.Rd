@@ -23,14 +23,14 @@ logspace(a, b, n=50)
   spaced between decades \eqn{10^\code{a}} and \eqn{10^\code{b}}. For
   \eqn{n < 2}, \code{b} is returned.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{linspace}}
 }
 \examples{
 logspace(1, pi, 36)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{manip}
 

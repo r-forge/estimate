@@ -22,12 +22,12 @@ vander(v)
 \value{
   Returns an \code{n}-by-\code{n} matrix constructed as described above.
 }
-\examples{
-vander(1:5)
-}
 \author{
   H. Borchers \email{hwborchers@googlemail.com},
   P. Roebuck \email{proebuck1701@gmail.com}
+}
+\examples{
+vander(1:5)
 }
 \keyword{array}
 

@@ -17,6 +17,10 @@ isprime(x)
   1 (\code{true}) for the elements of \code{x} which are prime, and logical
   0 (\code{false}) otherwise.
 }
+\author{
+  H. Borchers \email{hwborchers@googlemail.com},
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{factors}},
   \code{\link{primes}}
@@ -25,10 +29,6 @@ isprime(x)
 x <- c(2, 3, 0, 6, 10)
 ans  <- isprime(x)	## 1, 1, 0, 0, 0
 as.logical(ans)         ## true, true, false, false, false
-}
-\author{
-  H. Borchers \email{hwborchers@googlemail.com},
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{arith}
 

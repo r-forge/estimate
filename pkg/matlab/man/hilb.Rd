@@ -20,12 +20,12 @@ hilb(n)
 \value{
   Returns an \code{n}-by-\code{n} matrix constructed as described above.
 }
-\examples{
-hilb(3)
-}
 \author{
   H. Borchers \email{hwborchers@googlemail.com},
   P. Roebuck \email{proebuck1701@gmail.com}
+}
+\examples{
+hilb(3)
 }
 \keyword{array}
 

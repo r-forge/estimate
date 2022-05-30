@@ -22,11 +22,11 @@ std(x, flag=0)
   standard deviation. If matrix, returns vector containing the
   standard deviation of each column.
 }
-\examples{
-std(1:2) ^ 2
-}
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
+}
+\examples{
+std(1:2) ^ 2
 }
 \keyword{univar}
 

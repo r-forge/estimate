@@ -23,6 +23,9 @@ colorbar(C, location=c("EastOutside", "WestOutside", "NorthOutside", "SouthOutsi
   This implementation differs a bit from its MATLAB counterpart in that
   the values must be passed explicitly.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{imagesc}},
   \code{\link{jet.colors}},
@@ -84,9 +87,6 @@ values <- matrix(c(seq(1,  5, by=1),
 
 dev.new(width=8, height=7)
 doPlot(values, "EastOutside", col=jet.colors(16))
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{hplot}
 

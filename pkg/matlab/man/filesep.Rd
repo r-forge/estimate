@@ -19,13 +19,13 @@ filesep
   Implemented as an R variable rather than a function such that it more
   closely resembles normal MATLAB usage. 
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{fileparts}},
   \code{\link{fullfile}},
   \code{\link{pathsep}}
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{file}
 

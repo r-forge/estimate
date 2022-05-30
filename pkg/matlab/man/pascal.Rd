@@ -26,12 +26,12 @@ are 0, 1, or 2}
 \value{
   Returns matrix of order \code{n} according to specified option \code{k}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 pascal(4)
 pascal(3, 2)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

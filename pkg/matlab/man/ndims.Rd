@@ -25,13 +25,13 @@ ndims(A)
   The number of dimensions is always greater than or equal to 2.
   Initial implementation returned \code{\link[base]{length}}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 ndims(2:9)			# 2
 ndims(magic(4))			# 2
 ndims(array(1:8, c(2,2,2)))	# 3
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

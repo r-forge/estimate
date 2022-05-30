@@ -38,14 +38,14 @@ size(X, dimen)
   Handling of vectors is different than in initial implementation.
   Initial implementation returned \code{\link[base]{length}}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 size(2:9)			# 1 8
 size(matrix(1:8, 2, 4))		# 2 4
 size(matrix(1:8, 2, 4), 2)	# 4
 size(matrix(1:8, 2, 4), 3)	# 1
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

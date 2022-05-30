@@ -16,6 +16,9 @@ numel(A, varargin)
 \value{
   Returns \code{prod(size(A))}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link[base]{prod}},
   \code{\link{size}}
@@ -23,9 +26,6 @@ numel(A, varargin)
 \examples{
 numel(2:9)	# 8
 numel(magic(4))	# 16
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

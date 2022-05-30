@@ -23,6 +23,10 @@ primes(n)
   Returns numeric vector containing prime numbers less than or equal to
   argument \code{n}.
 }
+\author{
+  H. Borchers \email{hwborchers@googlemail.com},
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{isprime}},
   \code{\link{factors}}
@@ -34,10 +38,6 @@ length(primes(1e6))    #   78498 prime numbers less than one million
   length(primes(1e7))  #  664579 prime numbers less than ten million
   length(primes(1e8))  # 5761455 prime numbers less than one hundred million
 }
-}
-\author{
-  H. Borchers \email{hwborchers@googlemail.com},
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{arith}
 

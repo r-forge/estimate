@@ -21,13 +21,13 @@ toc(echo=TRUE)
   Provides analog to \code{\link[base]{system.time}}.
   Function \code{toc} can be invoked multiple times in a row.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 tic()
 for(i in 1:100) mad(runif(1000))	# kill time
 toc()
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{utilities}
 

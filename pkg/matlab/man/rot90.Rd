@@ -20,15 +20,15 @@ rot90(A, k=1)
   Returns matrix corresponding to argument \code{A} having been rotated
   argument \code{k} number of times.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{fliplr}},
   \code{\link{flipud}}
 }   
 \examples{
 rot90(matrix(1:4, 2, 2))
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

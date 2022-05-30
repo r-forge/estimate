@@ -27,15 +27,15 @@ fullfile(\dots)
   separated by file separator if all arguments have a positive length;
   otherwise, an empty character vector.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{
   \code{\link{fileparts}},
   \code{\link{filesep}}
 }
 \examples{
 fullfile("", "etc", "profile")	# /etc/profile
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{file}
 

@@ -30,6 +30,9 @@ flipud(object)
 \value{
   Return value is the same type as argument \code{object}.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{rot90}}
 }   
@@ -38,9 +41,6 @@ fliplr(1:9)
 flipud(1:9)	# same as previous since vectors have no orientation in R
 fliplr(matrix(1:9, 3, 3, byrow=TRUE))
 flipud(matrix(1:9, 3, 3, byrow=TRUE))
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

@@ -18,6 +18,9 @@ repmat(A, \dots)
   Returns matrix with value \code{A} tiled to the number of dimensions specified.
   Defaults to square if dimension argument resolves to a single value.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{ones}},
   \code{\link{zeros}}
@@ -28,9 +31,6 @@ repmat(1, c(3, 3))                 # same thing
 repmat(1, 3, 3)                    # same thing
 repmat(1, size(matrix(NA, 3, 3)))  # same thing
 repmat(matrix(1:4, 2, 2), 3)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

@@ -34,13 +34,13 @@ meshgrid(x, y, z, nargout=2)
 \note{
   Limited to two- or three-dimensional Cartesian space.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 meshgrid(1:3, 10:14)            # example 1
 meshgrid(1:3)                   # example 2
 meshgrid(5:8, 10:14, 2:3, 3)    # example 3
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

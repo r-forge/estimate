@@ -18,6 +18,9 @@ zeros(\dots)
   Returns matrix consisting only of ones (or zeros).
   Defaults to square if dimension argument resolves to a single value.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \seealso{ 
   \code{\link{eye}}
 }   
@@ -27,9 +30,6 @@ ones(c(3, 3))                   # same thing
 ones(3, 3)                      # same thing
 ones(size(matrix(NA, 3, 3)))    # same thing
 zeros(3)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{array}
 

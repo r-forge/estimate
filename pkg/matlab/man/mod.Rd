@@ -17,6 +17,9 @@ rem(x, y)
 \value{
   Returns vector containing result of the element by element operations.
 }
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
+}
 \examples{
 ## same results with x, y having the same sign
 mod(5, 3)
@@ -24,9 +27,6 @@ rem(5, 3)
 ## same results with x, y having different signs
 mod(-5, 3)
 rem(-5, 3)
-}
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{arith}
 
