@@ -1,0 +1,261 @@
+
+        **************************************************
+        *                                                *
+        *              1.0 SERIES NEWS                   *
+        *                                                *
+        **************************************************
+
+
+                CHANGES IN R VERSION 1.0.2
+
+
+NEW FEATURES
+
+    o   Converted COPYRIGHT file to Debian standard, machine-readable format.
+
+
+                CHANGES IN R VERSION 1.0.1
+
+
+NEW FEATURES
+
+    o   Removed triple colon operators referencing internal functions
+	which caused YA NOTE in upcoming version of R. [UW-20140205]
+
+    o   Changed the methods package dependency to an import
+	which caused YA NOTE in upcoming version of R. [UW-20140205]
+
+
+                CHANGES IN R VERSION 1.0.0
+
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o   Dropped compatibility for anything less than R-2.15 as
+	no longer able to test against previous versions of R.
+
+
+NEW FEATURES
+
+    o   After almost a decade, now has a production release number.
+
+    o   Added SVN revision information to many of the package files.
+
+    o   Added COPYRIGHTS file, and removed LICENSE file.
+
+    o   Removed .onAttach() anachronism for ensuring its methods package
+	dependency was available for S4 classes.
+
+    o   Removed redundant 'library(methods)' calls in S4-related files.
+
+    o   colorbar() example code now uses dev.new() rather than X11()
+	by request of CRAN maintainer. [KH-20140120]
+
+
+        **************************************************
+        *                                                *
+        *              0.8 SERIES NEWS                   *
+        *                                                *
+        **************************************************
+
+
+                CHANGES IN R VERSION 0.8.9
+
+
+NEW FEATURES
+
+    o   Converted .onAttach() output to use packageStartupMessage() method.
+
+
+                CHANGES IN R VERSION 0.8.8
+
+
+NEW FEATURES
+
+    o   Added 'vander' method.
+
+    o   Added 'pow2' method.
+
+    o   Added 'nextpow2' method.
+
+
+BUG FIXES
+
+    o   Additional argument checking for 'isprime' method.
+
+
+                CHANGES IN R VERSION 0.8.7
+
+
+NEW FEATURES
+
+    o   Added 'factors' method.
+
+    o   Added 'hilb' method.
+
+    o   Added 'isprime' method.
+
+    o   Added 'primes' method.
+
+    o   Added 'rosser' method.
+
+
+                CHANGES IN R VERSION 0.8.6
+
+
+BUG FIXES
+
+    o   Converted NEWS file into something R can recognize.
+
+
+                CHANGES IN R VERSION 0.8.5
+
+
+BUG FIXES
+
+    o   Fixed 'mod' to correct for 'mod(n,0) == n' [HWB-20110308]
+
+
+                CHANGES IN R VERSION 0.8.4
+
+
+BUG FIXES
+
+    o   Fixed 'linspace' to correct for undocumented 'floor(n)' [HWB-20110205]
+
+    o   Fixed 'logspace' to correct for 'n < 2' condition. [HWB-20110205]
+
+
+NEW FEATURES
+
+    o   Reimplemented 'logspace' as '10 ^ linspace(a,b,n)' to consolidate.
+
+
+                CHANGES IN R VERSION 0.8.3
+
+
+BUG FIXES
+
+    o   Respecify license by request of CRAN maintainer.
+
+
+                CHANGES IN R VERSION 0.8.2
+
+
+BUG FIXES
+
+    o   Removed 'grdev' method from 'colorbar' test codes for R-2.8 compatibility.
+
+
+                CHANGES IN R VERSION 0.8.1
+
+
+BUG FIXES
+
+    o   Modified 'sum' to handle logicals.
+
+
+                CHANGES IN R VERSION 0.8.0
+
+
+NEW FEATURES
+
+    o   Added 'cell' method.
+
+    o   Added 'isempty' method.
+
+    o   Added 'magic' method.
+
+    o   Added 'meshgrid' method.
+
+    o   Added 'ndims' method.
+
+    o   Added 'numel' method.
+
+    o   Added 'padarray' method.
+
+    o   Added 'reshape' method.
+
+    o   Added 'strcmp' method.
+
+    o   Modified 'repmat' to handle character vectors.
+
+    o   Updated package documentation.
+
+
+        **************************************************
+        *                                                *
+        *              0.7 SERIES NEWS                   *
+        *                                                *
+        **************************************************
+
+
+                CHANGES IN R VERSION 0.7.9
+
+
+NEW FEATURES
+
+    o   Converted error messages to use sprintf method instead of paste.
+
+    o   Modified 'imagesc' method argument list to allow for x,y,col arguments.
+	Also makes use of '{xy}axp' arguments for tickmark labels.
+
+    o   Updated package documentation.
+
+
+BUG FIXES
+
+    o   Fixed quoting in help message.
+
+    o   Corrected 'ones', 'zeros', 'eye' methods for certain 'size_t' arguments.
+
+    o   Modified 'repmat' method to not drop single dimension before replication.
+
+    o   Added argument checking to 'linspace' method.
+
+
+                CHANGES IN R VERSION 0.7.8
+
+
+NEW FEATURES
+
+    o   Added 'colorbar' method.
+
+    o   Added 'fileparts' method.
+
+    o   Added 'filesep' and 'pathsep' objects.
+
+    o   Added 'fullfile' method.
+
+    o   Added 'imagesc' method.
+
+    o   Added 'jet.colors' method.
+
+    o   Updated package documentation.
+
+
+                CHANGES IN R VERSION 0.7.7
+
+
+NEW FEATURES
+
+    o   Added 'pascal' method.
+
+    o   Added 'linspace' method.
+
+    o   Added 'logspace' method.
+
+    o   Converted 'size' method to S4.
+
+    o   Added 'dimen' parameter to 'size' method.
+
+    o   Added 'echo' parameter to 'toc' method.
+
+
+                CHANGES IN R VERSION 0.7.6
+
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o   Initial release to CRAN.
+

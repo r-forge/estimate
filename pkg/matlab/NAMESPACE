@@ -1,0 +1,55 @@
+###
+### $Id$
+###
+
+## Imports
+import(methods)
+
+## Public routines
+export(ceil)
+export(cell)
+export(colorbar)
+export(eye)
+export(factors)
+export(fileparts)
+export(filesep)
+export(find)
+export(fix)
+export(fullfile)
+export(hilb)
+export(imagesc)
+export(isempty)
+export(isprime)
+export(jet.colors)
+export(linspace)
+export(logspace)
+export(magic)
+export(meshgrid)
+export(mod)
+export(multiline.plot.colors)
+export(ndims)
+export(nextpow2)
+export(numel)
+export(ones)
+export(pascal)
+export(pathsep)
+export(pow2)
+export(primes)
+export(rem)
+export(repmat)
+export(reshape)
+export(rosser)
+export(rot90)
+export(std)
+export(strcmp)
+export(tic,toc)
+export(vander)
+export(zeros)
+
+## S4 Methods
+exportMethods(fliplr)
+exportMethods(flipud)
+exportMethods(padarray)
+exportMethods(size)
+exportMethods(sum)
+
