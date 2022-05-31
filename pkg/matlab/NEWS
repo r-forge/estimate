@@ -6,6 +6,16 @@
         **************************************************
 
 
+                CHANGES IN R VERSION 1.0.4
+
+
+BUG FIXES
+
+    o   Resubmitted since code in the R Forge-built source package did not
+	match that of the SVN revision checked and reported on-screen, somewhat
+	defeating its entire purpose.
+
+
                 CHANGES IN R VERSION 1.0.3
 
 

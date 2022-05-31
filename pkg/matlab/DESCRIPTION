@@ -1,6 +1,6 @@
 Package: matlab
-Version: 1.0.3
-Date: 2022-05-15
+Version: 1.0.4
+Date: 2022-05-31
 Title: 'MATLAB' Emulation Package
 Author: P. Roebuck
 Maintainer: P. Roebuck <proebuck1701@gmail.com>
@@ -13,4 +13,4 @@ Copyright: file COPYRIGHTS
 LazyLoad: true
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2022-05-15 23:59:59
+Date/Publication: 2022-05-31 19:59:59
