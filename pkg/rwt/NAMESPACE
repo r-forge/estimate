@@ -8,6 +8,8 @@ useDynLib(rwt, .registration=TRUE)
 ## Imported methods
 ##
 import(matlab)
+importFrom(graphics, axis, box, legend, lines)
+importFrom(stats, median)
 
 ##
 ## Public functions
