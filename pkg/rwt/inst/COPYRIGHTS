@@ -2,10 +2,10 @@
 ### $Id$
 ###
 
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: rwt
 Upstream-Contact: P. Roebuck <proebuck1701@gmail.com>
-Source: http://cran.r-project.org/package=rwt
+Source: https://cran.r-project.org/package=rwt
 
 Files: *
 Copyright: 2004-2022, MD Anderson Cancer Center (MDACC)
@@ -18,6 +18,6 @@ Comment: All files were heavily modified from the original codebase which was
 	written as a MATLAB toolbox. The files listed above (each corresponding
 	to an original file named with "_r" before the file extension) compose
 	the original's core logic. The homepage for the Rice Wavelet Toolkit
-	is <http://dsp.rice.edu/software/rice-wavelet-toolbox>. Its license is
-	available online <http://raw.github.com/ricedsp/rwt/master/LICENSE>.
+	is <https://dsp.rice.edu/software/rice-wavelet-toolbox>. Its license is
+	available online <https://raw.github.com/ricedsp/rwt/master/LICENSE>.
 

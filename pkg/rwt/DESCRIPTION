@@ -8,7 +8,7 @@ Description: Provides a set of functions for performing digital signal
     processing.
 Depends: R (>= 2.15)
 Imports: matlab
-URL: http://cran.r-project.org/package=rwt
+URL: https://cran.r-project.org/package=rwt
 License: BSD_3_clause + file LICENSE
 Copyright: file COPYRIGHTS
 NeedsCompilation: yes

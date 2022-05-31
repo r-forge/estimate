@@ -19,7 +19,7 @@
   Supported values of \code{N} are [4|6|8|10|12|14|16|18|20].
 }
 \references{
-  \url{http://cas.ensmp.fr/~chaplais/Wavetour_presentation/Tables/Daubechies/}
+  \url{https://cas.ensmp.fr/~chaplais/Wavetour_presentation/Tables/Daubechies/}
 }
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
