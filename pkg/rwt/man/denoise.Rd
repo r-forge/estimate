@@ -76,12 +76,12 @@ denoise.udwt(x, h, option = default.udwt.option)
       element - \code{option[[7]] = type}.
     }
 }
-\author{
-  P. Roebuck \email{proebuck1701@gmail.com}
-}
 \note{
 Both \code{denoise.dwt} and \code{denoise.udwt} are convenience routines
 that call the \code{denoise} routine with appropriate default arguments.
+}
+\author{
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \examples{
 sig <- makesig(SIGNAL.DOPPLER)

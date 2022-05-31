@@ -56,14 +56,13 @@ makesig(sigName, N)
     \item{x}{vector (or matrix) of test signals}
     \item{N}{length of signal returned}
 }
+\note{
+  Using the value \code{SIGNAL.ALL.SIG} for \var{sigName} returns a matrix 
+  containing the vectors of all the other signals.
+}
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
 }
-\note{
-Using the value \code{SIGNAL.ALL.SIG} for \var{sigName} returns a matrix 
-containing the vectors of all the other signals.
-}
-
 \examples{
 ret.sig <- makesig(SIGNAL.DOPPLER, 32)
 }

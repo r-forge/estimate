@@ -12,11 +12,11 @@
 \arguments{
   \item{N}{numeric scalar specifying number of coefficients desired}
 }
-\value{
-  Returns a vector containing coefficients.
-}
 \details{
   Supported values of \code{N} are [4|6|8|10|12|14|16|18|20].
+}
+\value{
+  Returns a vector containing coefficients.
 }
 \references{
   \url{https://cas.ensmp.fr/~chaplais/Wavetour_presentation/Tables/Daubechies/}
