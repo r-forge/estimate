@@ -1,0 +1,76 @@
+###
+### $Id$
+###
+
+useDynLib(rwt, .registration=TRUE)
+
+##
+## Imported methods
+##
+import(matlab)
+
+##
+## Public functions
+##
+export(denoise)
+export(denoise.dwt)
+export(denoise.udwt)
+export(daubcqf)
+export(hardTh)
+export(softTh)
+export(makesig)
+export(plotSignalTransformation)
+
+##
+## Wrappers
+##
+export(mdwt)
+export(midwt)
+export(mrdwt)
+export(mirdwt)
+
+##
+## Constants
+##
+
+## Signal constants
+export(SIGNAL.ALL)
+export(SIGNAL.HEAVI.SINE)
+export(SIGNAL.BUMPS)
+export(SIGNAL.BLOCKS)
+export(SIGNAL.DOPPLER)
+export(SIGNAL.RAMP)
+export(SIGNAL.CUSP)
+export(SIGNAL.SING)
+export(SIGNAL.HI.SINE)
+export(SIGNAL.LO.SINE)
+export(SIGNAL.LIN.CHIRP)
+export(SIGNAL.TWO.CHIRP)
+export(SIGNAL.QUAD.CHIRP)
+export(SIGNAL.MISH.MASH)
+export(SIGNAL.WERNER.SORROWS)
+export(SIGNAL.LEOPOLD)
+
+## Phase constants
+export(PHASE.MINIMUM)
+export(PHASE.MID)
+export(PHASE.MAXIMUM)
+
+## Denoise constants
+export(DWT.TRANSFORM.TYPE)
+export(UDWT.TRANSFORM.TYPE)
+export(MAD.VARIANCE.ESTIMATOR)
+export(STD.VARIANCE.ESTIMATOR)
+export(SOFT.THRESHOLD.TYPE)
+export(HARD.THRESHOLD.TYPE)
+export(MAX.DECOMPOSITION)
+export(CALC.THRESHOLD.TO.USE)
+export(DEFAULT.DWT.THRESHOLD.MULTIPLIER)
+export(DEFAULT.UDWT.THRESHOLD.MULTIPLIER)
+
+##
+## Processing Options
+##
+export(default.dwt.option)
+export(default.udwt.option)
+

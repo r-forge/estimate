@@ -1,0 +1,17 @@
+Package: rwt
+Version: 1.0.1
+Date: 2022-05-30
+Title: 'Rice Wavelet Toolbox' wrapper
+Author: P. Roebuck, Rice University's DSP group
+Maintainer: P. Roebuck <proebuck@mdanderson.org>
+Description: Provides a set of functions for performing digital signal
+    processing.
+Depends: R (>= 2.15)
+Imports: matlab
+URL: http://cran.r-project.org/package=rwt
+License: BSD_3_clause + file LICENSE
+Copyright: file COPYRIGHTS
+NeedsCompilation: yes
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2022-05-30 23:59:59

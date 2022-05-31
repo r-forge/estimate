@@ -1,0 +1,7 @@
+###
+### $Id$
+###
+
+PKG_CPPFLAGS = -DNDEBUG
+PKG_LIBS = -lm
+

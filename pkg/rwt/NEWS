@@ -1,0 +1,87 @@
+
+        **************************************************
+        *                                                *
+        *              1.0 SERIES NEWS                   *
+        *                                                *
+        **************************************************
+
+
+                CHANGES IN R VERSION 1.0.0
+
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o   Dropped compatibility for anything less than R-2.15 as
+        no longer able to test against previous versions of R.
+
+
+NEW FEATURES
+
+    o   After almost a decade, now has a production release number.
+
+    o   Added SVN revision information to many of the package files.
+
+    o   Added COPYRIGHTS file in Debian standard, machine-readable format.
+
+    o   Added manpage for package itself.
+
+
+        **************************************************
+        *                                                *
+        *              0.9 SERIES NEWS                   *
+        *                                                *
+        **************************************************
+
+
+                CHANGES IN R VERSION 0.9.4
+
+
+BUG FIXES
+
+    o   Switch to BSD 3-clause license for entire package by request of
+	CRAN maintainer.
+
+
+                CHANGES IN R VERSION 0.9.3
+
+
+NEW FEATURES
+
+    o   Use packageStartupMessage() in .onAttach() namespace hook methods.
+
+    o   Revamp of internal R code to use sprintf() for error messages.
+
+    o   Fixed makesig() so that SIGNAL.ALL now works.
+
+
+BUG FIXES
+
+    o   Converted NEWS file into something R can recognize.
+
+
+                CHANGES IN R VERSION 0.9.2
+
+
+BUG FIXES
+
+    o   Conform to current packaging guidelines concerning license by request
+	of CRAN maintainer.
+
+
+                CHANGES IN R VERSION 0.9.1
+
+
+NEW FEATURES
+
+    o   Replaced platform-specific aspects of package with generic equivalents.
+
+    o   Miscellaneous updates.
+
+
+                CHANGES IN R VERSION 0.9.0
+
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o   Initial release to CRAN.
+
