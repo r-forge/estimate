@@ -26,7 +26,7 @@ for maximal possible L.
     \item{L}{Number of levels in wavelet decomposition}
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \examples{
 sig <- makesig(SIGNAL.LIN.CHIRP, 8)

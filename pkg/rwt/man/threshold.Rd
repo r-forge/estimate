@@ -24,7 +24,7 @@ softTh(y, thld)
   Tech. Rept. Statistics, Stanford (1992)
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \examples{
 sig <- makesig(SIGNAL.WERNER.SORROWS, 8)

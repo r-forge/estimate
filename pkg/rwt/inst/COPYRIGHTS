@@ -4,15 +4,15 @@
 
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: rwt
-Upstream-Contact: P. Roebuck <proebuck@mdanderson.org>
+Upstream-Contact: P. Roebuck <proebuck1701@gmail.com>
 Source: http://cran.r-project.org/package=rwt
 
 Files: *
-Copyright: 2004-2014, MD Anderson Cancer Center (MDACC)
+Copyright: 2004-2022, MD Anderson Cancer Center (MDACC)
 License: BSD_3_clause
 
 Files: src/mdwt.c src/midwt.c src/mirdwt.c src/mrdwt.c src/estimateL.c
-Copyright: 1994-2014, Rice University
+Copyright: 1994-2022, Rice University
 License: BSD_3_clause
 Comment: All files were heavily modified from the original codebase which was
 	written as a MATLAB toolbox. The files listed above (each corresponding

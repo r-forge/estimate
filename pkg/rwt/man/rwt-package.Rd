@@ -21,7 +21,7 @@
     \code{file.show(system.file("NEWS", package="rwt"))}.
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{package}
 

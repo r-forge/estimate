@@ -57,7 +57,7 @@ makesig(sigName, N)
     \item{N}{length of signal returned}
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \note{
 Using the value \code{SIGNAL.ALL.SIG} for \var{sigName} returns a matrix 

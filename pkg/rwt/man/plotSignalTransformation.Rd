@@ -20,7 +20,7 @@ plotSignalTransformation(x, s, title, col.x = 'blue', col.s = 'red')
   Used by demo code to display the results of a transformation.
 }
 \author{
-  P. Roebuck \email{proebuck@mdanderson.org}
+  P. Roebuck \email{proebuck1701@gmail.com}
 }
 \keyword{hplot}
 
