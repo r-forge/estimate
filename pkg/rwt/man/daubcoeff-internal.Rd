@@ -19,7 +19,7 @@
   Returns a vector containing coefficients.
 }
 \references{
-  \url{https://cas.ensmp.fr/~chaplais/Wavetour_presentation/Tables/Daubechies/}
+  \url{https://cas.mines-paristech.fr/~chaplais/Wavetour_presentation/Tables/Daubechies/Daubechies_coefficients.csv}
 }
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
