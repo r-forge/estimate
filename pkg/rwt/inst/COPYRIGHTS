@@ -4,20 +4,46 @@
 
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: rwt
-Upstream-Contact: P. Roebuck <proebuck1701@gmail.com>
+Upstream-Contact: "P. Roebuck" <proebuck1701@gmail.com>
 Source: https://cran.r-project.org/package=rwt
 
 Files: *
 Copyright: 2004-2022, MD Anderson Cancer Center (MDACC)
-License: BSD_3_clause
+License: BSD-3-clause
 
 Files: src/mdwt.c src/midwt.c src/mirdwt.c src/mrdwt.c src/estimateL.c
 Copyright: 1994-2022, Rice University
-License: BSD_3_clause
+License: BSD-3-clause
 Comment: All files were heavily modified from the original codebase which was
-	written as a MATLAB toolbox. The files listed above (each corresponding
-	to an original file named with "_r" before the file extension) compose
-	the original's core logic. The homepage for the Rice Wavelet Toolkit
-	can be accessed via an entry on <https://dsp.rice.edu/software/>. Its
-	license is available at <https://raw.github.com/ricedsp/rwt/master/LICENSE>.
+  written as a MATLAB toolbox. The files listed above (each corresponding
+  to an original file named with "_r" before the file extension) compose
+  the original's core logic. The homepage for the Rice Wavelet Toolkit
+  can be accessed via an entry on <https://dsp.rice.edu/software/>. Its
+  license is available at <https://raw.github.com/ricedsp/rwt/master/LICENSE>.
+
+License: BSD-3-clause
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+.
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+  3. Neither the name of the copyright holder nor the names of its
+     contributors may be used to endorse or promote products derived from
+     this software without specific prior written permission.
+.
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
