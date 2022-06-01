@@ -3,7 +3,7 @@ Version: 1.0.4
 Date: 2022-05-31
 Title: 'MATLAB' Emulation Package
 Author: P. Roebuck
-Maintainer: P. Roebuck <proebuck1701@gmail.com>
+Maintainer: "P. Roebuck" <proebuck1701@gmail.com>
 Description: Emulate 'MATLAB' code using 'R'.
 Depends: R (>= 2.15)
 Imports: methods
