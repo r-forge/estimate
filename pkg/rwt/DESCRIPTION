@@ -3,7 +3,7 @@ Version: 1.0.1
 Date: 2022-05-30
 Title: 'Rice Wavelet Toolbox' Wrapper
 Author: P. Roebuck, Rice University's DSP group
-Maintainer: P. Roebuck <proebuck1701@gmail.com>
+Maintainer: "P. Roebuck" <proebuck1701@gmail.com>
 Description: Provides a set of functions for performing digital signal
     processing.
 Depends: R (>= 2.15)
