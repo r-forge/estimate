@@ -20,9 +20,9 @@
 \alias{SIGNAL.LEOPOLD}
 \title{Make Signal}
 \description{
-  Creates artificial test signal identical to the standard test signals proposed
-  and used by D. Donoho and I. Johnstone in WaveLab (a MATLAB toolbox developed
-  by Donoho et al. the statistics department at Stanford University).
+  Creates artificial test signal identical to the standard test signals
+  proposed and used by D. Donoho and I. Johnstone in WaveLab, a MATLAB
+  toolbox for wavelet analysis developed at Stanford University.
 }
 \usage{
 makesig(sigName, N)
@@ -45,7 +45,7 @@ makesig(sigName, N)
       SIGNAL.TWO.CHIRP\cr
       SIGNAL.QUAD.CHIRP\cr
       SIGNAL.MISH.MASH\cr
-      SIGNAL.WERNER.SORROWS (Heisenburg)\cr
+      SIGNAL.WERNER.SORROWS (Heisenberg)\cr
       SIGNAL.LEOPOLD (Kronecker)
     }}
   \item{N}{numeric scalar specifying length in samples of desired signal
@@ -59,6 +59,11 @@ makesig(sigName, N)
 \note{
   Using the value \code{SIGNAL.ALL.SIG} for \var{sigName} returns a matrix 
   containing the vectors of all the other signals.
+}
+\references{
+  J. Buckheit, S. Chen, D. Donoho, I. Johnstone, & J. Scargle\cr
+  \emph{WaveLab} (version 0.700; 1995) [Computer software].\cr
+  \url{https://statweb.stanford.edu/~wavelab/WaveLab701.html}
 }
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
