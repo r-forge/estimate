@@ -29,8 +29,10 @@ solutions. Valid values are:
     \item{h.1}{minimal phase Daubechies' wavelet filter}
 }
 \references{
+  Ingrid Daubechies\cr
   \emph{Orthonormal Bases of Compactly Supported Wavelets}\cr
-  CPAM (Oct.89)
+  CPAM (Oct. 1988), 7(41), 909-996\cr
+  \doi{10.1002/cpa.3160410705}
 }
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
