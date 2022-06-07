@@ -1,6 +1,6 @@
 Package: rwt
 Version: 1.0.1
-Date: 2022-05-30
+Date: 2022-06-06
 Title: 'Rice Wavelet Toolbox' Wrapper
 Author: P. Roebuck, Rice University's DSP group
 Maintainer: "P. Roebuck" <proebuck1701@gmail.com>
@@ -14,4 +14,4 @@ Copyright: file COPYRIGHTS
 NeedsCompilation: yes
 LazyLoad: yes
 Repository: CRAN
-Date/Publication: 2022-05-30 23:59:59
+Date/Publication: 2022-06-06 23:59:59
