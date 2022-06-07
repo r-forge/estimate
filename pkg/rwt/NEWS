@@ -19,6 +19,15 @@ BUG FIXES
 
     o   Fixed some URLs to external sources. Changed to secure HTTTP protocol.
 
+    o   Added license text to COPYRIGHTS file.
+
+
+NEW FEATURES
+
+    o   Added .Rbuildignore support to filter out what gets put in the build
+
+    o   Added spell checking support.
+
 
                 CHANGES IN R VERSION 1.0.0
 
