@@ -48,6 +48,7 @@ words <- c(
     "Johnstone",        # Iain Johnstone
     "Kronecker",        # Leopold Kronecker
   ## Terms
+    "deconvolution",
     "denoise",
     "denoised",
     "denoising",
