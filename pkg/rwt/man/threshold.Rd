@@ -16,7 +16,7 @@ softTh(y, thld)
   \item{thld}{numeric threshold value to be applied}
 }
 \value{
-  \item{x}{Thresholded output}
+  Returns numeric vector of thresholded values of the same length as \code{y}.
 }
 \references{
   D.L. Donoho\cr
@@ -29,7 +29,7 @@ softTh(y, thld)
 \examples{
 sig <- makesig(SIGNAL.WERNER.SORROWS, 8)
 thld <- 1
-x <- rwt:::hardTh(sig$x, thld)
+x <- hardTh(sig$x, thld)
 }
 \keyword{interface}
 
