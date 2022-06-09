@@ -6,6 +6,19 @@
         **************************************************
 
 
+                CHANGES IN R VERSION 1.0.2
+
+
+BUG FIXES
+
+    o   Added package author roles and additional package description
+        to DESCRIPTION file.
+
+    o   Explicitly denoted lack of return value in documentation.
+
+    o   Removed outdated private package access from example code.
+
+
                 CHANGES IN R VERSION 1.0.1
 
 
