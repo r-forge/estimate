@@ -11,6 +11,6 @@ plotSignalTransformation <- function(x, s, title, col.x="blue", col.s="red") {
     lines(x, col=col.x)
     lines(s, col=col.s)
     legend(length(s), 0, legend="signal", text.col=col.s, bty="n", xjust=1)
-    invisible()
+    invisible(NULL)
 }
 

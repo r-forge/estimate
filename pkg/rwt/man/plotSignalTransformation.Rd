@@ -19,6 +19,9 @@ plotSignalTransformation(x, s, title, col.x = 'blue', col.s = 'red')
 \details{
   Used by demo code to display the results of a transformation.
 }
+\value{
+  Returns no value -- called for its side effect.
+}
 \author{
   P. Roebuck \email{proebuck1701@gmail.com}
 }
